@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="book"
+            type="cn.edu.gdpt.libraryhome.bean.Booklist.ResultBean"
+            />
+        <variable
+            name="booklist"
+            type="cn.edu.gdpt.libraryhome.bean.Booklist"></variable>
+    </data>
+    <LinearLayout
+        linecolor="@{book.isclick}"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:gravity="center"
+    android:text="@{book.catalog}"
+    android:textSize="@dimen/tvsize"/>
+    </LinearLayout>
+</layout>

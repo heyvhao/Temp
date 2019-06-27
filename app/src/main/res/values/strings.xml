@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">新华字典</string>
+    <string name="weburl">http://www.gdpt.edu.cn/tsg</string>
+    <string name="booklist">http://apis.juhe.cn/goodbook/catalog?key=b9620bc80d24753190ba25f3adef55a3</string>
+    <string name="findbook">"http://apis.juhe.cn/goodbook/query?key=b9620bc80d24753190ba25f3adef55a3&amp;catalog_id="</string>
+    <string name="jindong">"https://search.jd.com/Search?enc=utf-8&amp;wq=shuben&amp;pvid=c58f4b09ce5d4eaba3b29d0be4cc2502&amp;keyword="</string>
+    <string name="succ">登录成功
+        用户：</string>
+</resources>
